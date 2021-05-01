@@ -1,0 +1,441 @@
+/* Margin for navaigation */
+.navbar{
+    background: rgba(0,0,0,.5);
+}
+/* CSS for brand */
+.navbar-light .navbar-brand {
+    color: #fff !important;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* CSS for Navigation bar Items */
+.nav-item{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.nav-item .active{
+    border-bottom: 3px solid green;
+    display: inline-block;
+}
+/* CSS strat for navbar items */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#fff !important;
+    display: inline-block;
+    transition: 1s;
+    border-bottom: 3px solid red;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link{
+    padding: .2rem 1rem;
+}
+/* CSS end for navbar items */
+.btn-success{
+    background: red;
+    transition: 1s;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* CSS for image slider */
+.carousel-item{
+    height: 75vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: rgba(0,0,0,.5) !important;
+}
+/* CSS for whole Caption */
+.carousel-caption{
+    margin-bottom: 180px;
+}
+/* CSS for captiion heading */
+.carousel-caption h5{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: merienda;
+}
+/* CSS for caption paragraph */
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+/* CSS for anchor tag */
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+}
+/* CSS for clouser small window */
+.smallDevices{
+    height: 100vh;
+}
+/* CSS for small window like mobile and tablet */
+@media only screen and (max-width: 767px){
+    .navbar-nav.ml-auto{
+        background: rgba(0,0,0,.5);
+    }
+    .navbar-toggler{
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #fff;
+    }
+}
+/* Footer CSS */
+.list-unstyled a {
+    margin-left: 10px;
+    color: rgb(15, 1, 1) !important;
+    text-decoration: none !important;
+    font-size: 17px;
+}
+.list-unstyled a:hover { color: green !important;}
+footer h4{
+    display: inline-block;
+    border-bottom: 2px solid yellowgreen;
+    margin-bottom: 20px;
+}
+.quick-links a{
+    text-decoration: none !important;
+}
+.quick-links .fa{
+    padding: 10px;
+    font-size: 28px;
+    color: red;
+}
+.quick-links .fa {color: blue;}
+.quick-links .fa:hover {color: red;}
+.bg-lightcolor{
+    background-color: rgba(219, 217, 217, 0.315);
+}
+.bg-color{
+    background-color: rgba(190, 227, 252, 0.192);
+}
+.heading{
+    color: rgb(18, 241, 118);
+    display: inline-block;
+    border-bottom: 2px solid red;
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin{
+    padding: 5px;
+    font-size: 20px;
+    color: red;
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+}
+.backgroundforWhyWE{
+    background-color: rgba(18, 250, 10, 0.2);
+}
+.form-gap{
+    padding-top: 70px;
+}
+
+.team{
+    font-family: 'josefin sans', sans-serif;
+}
+.team .card-wrapper{
+    height: 400px;
+    width: 300px;
+    perspective: 1000px;
+}
+.team .content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.team .card-wrapper:hover .content{
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.team .face-front, .team .face-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: black;
+}
+.team .face-back{
+    transform: rotateY(180deg);
+}
+
+/*About Us Page*/
+h1{
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+#team .set{
+    margin-top: -50px;
+    font-size: 50px;
+    border: 2px solid grey !important;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+#team i{
+    font-size: 26px;
+    color: #555;
+}
+#team p{
+    font-weight: 500;
+}
+#team .card{
+    background-repeat: 0;
+    box-shadow: 5px 5px 15px #3ce7a527;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+#team .card:hover{
+    background: #3ce76f;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+.icon-about i{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    color: greenyellow;
+}
+.icon-about i:hover{
+    border: 2px solid springgreen;
+    position: relative;
+}
+.about-us{
+    background-image: url(about.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 500px;
+}
+.services-img{
+    background-image: url(services.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 500px;
+}
+.contact-img{
+    background-image: url(contact.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 500px;
+}
+.gallery-img{
+    background-image: url(gallery.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 500px;
+}
+.sign-img{
+    background-image: url(fp.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 500px;
+}
+.start{
+    background-image: url(Images/5.jpg);
+    background: #2fb904;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color:white;
+    background-attachment: fixed;
+}
+.start i{
+    font-size: 50px;
+}
+.start-items h2{
+    font-weight: bold;
+    font-size: 42px;
+    color: darkorange;
+}
+.start p{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/*Services Section Css Start*/
+.sec1{
+    margin-top: 0;
+    padding-top: 0;
+    background-size: cover;
+    background-position: center;
+    color:#fff !important;
+    padding-bottom: 50px;
+  }
+  .sec1 .services{
+    margin:5px auto;
+    text-align: center;
+  }
+  .sec1 .cont_head{
+    font-family:sans-serif ;
+    letter-spacing: 5px;
+    color: white !important;
+  }
+  .sec1 .cont_head:after{
+    background: white !important;
+    display: block;
+    width: 250px;
+    height: 3px;
+    margin:10px auto;
+  }
+  .sec1 h3{
+    color: white !important;
+  }
+  .sec1 a{
+    margin-bottom: 20px;
+  }
+  .sec1 .icon{
+    font-size: 40px;
+    text-align: center;
+  }
+  .sec1 .icon i{
+      border: 1px solid white !important;
+      padding: 20px;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  .sec1 .col-md-3{
+    margin-bottom: 20px;
+    box-shadow: 5px 7px 10px 5px rgba(255,255,255,0.5) !important;
+    margin: 2px;
+  }
+  .sec1 .col-md-3:hover{
+    box-shadow: 5px 7px 10px 5px rgba(255,255,255,0.5) !important; 
+    cursor: pointer;
+  }
+  /*Services Section Css Start*/
+  /* Services Page CSS */
+  .wrapper{
+	margin-top: 8em;
+}
+.Service_box{
+	color: #fff;
+	font-family: 'lato,sans-serif';
+	text-align: center;
+	padding: 25px 5px 30px 0;
+	box-shadow:15px 0 15px -15px rgba(0,0,0,0.5) inset;
+	position: relative;
+}
+.Service_box:after{
+content: '';
+background: #ff018f;
+width: 20px;
+height: 20px;
+box-shadow: 15px 0 15px -15px rgba(0,0,0,0.5) inset;
+position: absolute;
+bottom: 10px;
+left: 0;
+clip-path: polygon(0 0,0% 100%,100% 0);
+}
+.Service_box .Service_content{
+	padding: 15px;
+	background: linear-gradient(to left bottom, #fd9743,#ff018f);
+	border-radius: 0 30px 30px 0;
+	box-shadow: 20px 0 20px -20px rgba(0,0,0,0.5) inset;
+}
+.Service_box.title{
+	color: #ff018f;
+	background: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 0 -20px 20px -15px;
+	border-radius: 0 30px 30px 0;
+	box-shadow: 10px 0 10px -10px rgba(0,0,0,0.5) inset,5px 0 5px rgba(0,0,0,0.5); 
+}
+.Service_box.description{
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0 0 20px;
+}
+.Service_box.Service_icon{
+	color: #fff;
+	font-size: 45px;
+
+}
+.Service_box:hover .Service_icon i{
+transform: rotate(360deg);
+transition: all 0.3s;
+}
+.Service_box.blue .Service_content{
+	background: linear-gradient(to left bottom, #02d7dd,#6558ff);
+}
+.Service_box.blue:after{
+	background: #6558ff;
+}
+.Service_box.blue .title{
+	color: #6558ff;
+}
+.Service_box.purple .service_content{
+	background: linear-gradient(to left bottom,#f83abe,#910090);
+}
+.Service_box.purple:after{
+	background: #910090;
+}
+.Service_box.purple .title{
+color: #910090;
+}
+
+
+
+.Service_box.green .service_content{
+	background: linear-gradient(to left bottom,#f83abe,#910090);
+}
+.Service_box.green:after{
+	background: #910090;
+}
+.Service_box.green .title{
+color: #910090;
+}
+@media only screen and (max-width: 990px){
+	.Service_box{
+		margin: 0 0 30px;
+	}
+}

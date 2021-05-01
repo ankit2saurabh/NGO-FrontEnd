@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Bright Future Foundation </title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+</head>
+<body>
+    <!-- head section -->
+    <header id="top">
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bright Future Foundation</a> <!--You can set Brand here aur logo-->
+                <!-- <img src="Images/4.jpg" alt="Logo not available" class="rounded" width="80" height="80"> --> <!-- If you have a logo iamge give the link here-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Gallry.html">Gallry</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacts.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Login.html" class="btn btn-primary ml-4">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="sign-img mb-5">
+            <div class="container">
+                <h1 class="text-white" style="padding-top: 250px; font-size: 50px;">Sign Up</h1>
+                <h5 class="text-white pl-4">Home >> Create your account here</h5>
+            </div>
+        </div>
+    </header>
+    <!-- Header ends here -->
+    <!-- Sign Up Form Here -->
+    <div class="container-fluid">
+        <div class="container">
+            <!--Section: Contact v.2-->
+            <section class="mb-4">
+                <!--Section heading-->
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Register</h2>
+                <!--Section description-->
+                <p class="text-center w-responsive mx-auto mb-5 text-info" style="font-size: 18px;">You can Register yourself here by Providing few Details</p>
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" action="signUp.php" method="POST">
+                            <!--Grid row-->
+                            <div class="row">
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="fname">First name</label>
+                                        <input type="text" id="fname" name="name" class="form-control">
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="lname">First name</label>
+                                        <input type="text" id="lname" name="name" class="form-control">
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="email">Your email</label>
+                                        <input type="text" id="email" name="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="email">Confirm Your email</label>
+                                        <input type="text" id="cnf_email" name="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="number">Your Mobile Number</label>
+                                        <input type="number" id="number" name="number" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="date">Your Birth date</label>
+                                        <input type="date" id="date" name="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="password">Your Password</label>
+                                        <input type="password" id="password" name="password" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="password">Confirm Your password</label>
+                                        <input type="password" id="cnf_password" name="password" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                            <!--Grid row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0 mt-3">
+                                        <label for="address">Your Address</label>
+                                        <input type="text" id="address" name="address" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid row-->
+                        </form>
+                        <div class="text-center text-md-left mt-4">
+                            <a class="btn btn-primary float-right" onclick="">Register</a>
+                            <a class="btn btn-success float-right mr-4" onclick="">Login</a>
+                        </div>
+                        <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+            </section>
+            <!--Section: Contact v.2-->
+        </div>
+    </div>
+    <!-- Footer Starts Here -->
+    <footer class="bg-lightcolor text-dark container-fluid">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 pb-2 text-justify">
+                    <h4 class="text-info">About Us</h4>
+                    <p>Bright future Foundation <hr>
+                      <strong class="text-danger ml-5">CHAIRMAIN</strong><hr>
+                      Mr. Sushant kumar Gautam</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 pb-2">
+                    <h4 class="text-info">Useful Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="Gallry.html">Gallary</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contacts.html">Write us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 pb-2">
+                    <h4 class="text-info">Contact Us</h4>
+                    <p>
+                        <address>Sharda Market, Main Road, Gamharia, Jamshedpur, Jharkhand <br><span> Postal Code - 832108</span></address>
+                        <hr>
+                        <strong>phone: </strong>+91 9504033448 <br/>
+                        <strong>Email: </strong><a href="mailto:dummy@gmail.com" style="color: rgb(53, 50, 50);">&nbsp; dummy2ngo@gmil.com</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 col-sm-6 pb-2">
+                    <h4 class="text-info">Newsletters</h4>
+                    <p>Enter your email address below</p>
+                    <form action="mail.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your Mail" name="mail" id="mail">
+                            <div class="input-group-append pl-2">
+                                <button class="btn btn-success rounded-lg">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="quick-links mt-5">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#top"><i class="fa fa-arrow-alt-circle-up"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center bg-secondary py-2 text-white">
+            &copy; 2020, All rights reserverd. 
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
